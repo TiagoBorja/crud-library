@@ -34,6 +34,7 @@ public class BookController {
         return bookService.create(book);
     }
 
+    //Teste
     @PutMapping("/{id}")
     public ResponseEntity<Book> updateBook(@PathVariable Long id, @RequestBody Book bookDetails) {
         try {
