@@ -1,6 +1,6 @@
 package com.teste.crud_library.service;
 
-import com.teste.crud_library.entity.Book;
+import com.teste.crud_library.model.entity.Book;
 import com.teste.crud_library.repository.BookRepository;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;

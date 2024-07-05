@@ -1,9 +1,9 @@
-package com.teste.crud_library.entity;
+package com.teste.crud_library.model.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table (name = "books")
+@Table(name = "books")
 public class Book {
 
     @Id

@@ -1,6 +1,6 @@
 package com.teste.crud_library.controller;
 
-import com.teste.crud_library.entity.Book;
+import com.teste.crud_library.model.entity.Book;
 import com.teste.crud_library.service.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
